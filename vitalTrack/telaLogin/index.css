@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #e6f3f8;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  border-radius: 0 0 12px 12px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #1f3c88;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1f3c88;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #0077b6;
+}
+
+.login {
+  color: #1f3c88;
+  font-weight: bold;
+  cursor: pointer;
+}
+.imagem-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* espaço entre imagem e elementos */
+  margin: 60px auto;
+  max-width: 1800px;
+}
+
+.imagem {
+  max-width: 1150px; /* aumentei bem mais a imagem */
+  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0px 10px 24px rgba(0,0,0,0.3);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* menos espaço entre os cards */
+}
+
+.icon {
+  text-align: center;
+  background: #4baec5;
+  padding: 25px; /* reduzido */
+  border-radius: 16px;
+  color: #fff;
+  font-size: 16px; /* fonte menor */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.25);
+}
+
+.icon img {
+  width: 70px; /* ícones menores */
+  margin-bottom: 15px;
+}
+
+.icon p {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+}
+
+.logo{
+  height: 3rem;
+}
