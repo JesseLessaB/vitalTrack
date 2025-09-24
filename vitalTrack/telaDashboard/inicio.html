@@ -4,29 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Início</title>
-  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
-  <script>
-    if (localStorage.getItem("logado") !== "true") {
-      window.location.href = "../telaLogin/login.html";
-    }
-
-    function logout() {
-      localStorage.removeItem("logado");
-      window.location.href = "../telaLogin/login.html";
-    }
-  </script>
-
   <header>
-    <img class="logo" src="../imagem/logo.png" alt="VitalTrack">
+    <img class="logo" src="../imagem/Captura_de_tela_2025-09-23_162551-removebg-preview.png" alt="VitalTrack">
     <div class="perfil">
-      <img src="../imagem/perfil.png" alt="Perfil" class="icone-perfil" onclick="logout()">
     </div>
   </header>
 
   <nav class="topicos">
-    <ul><a href="telaInicio.html">Início</a></ul>
+    <ul><a href="inicio.html">Início</a></ul>
     <ul><a href="agenda.html">Agenda</a></ul>
     <ul><a href="hidratacao.html">Hidratação</a></ul>
     <ul><a href="imc.html">IMC</a></ul>
