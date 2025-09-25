@@ -33,5 +33,5 @@ document.getElementById("formCadastro").addEventListener("submit", function(e) {
   localStorage.setItem("usuario", JSON.stringify(usuario));
 
   alert("Conta criada com sucesso! Faça login para continuar.");
-  window.location.href = "login.html"; 
+  window.location.href = "../telaLogin/login.html"; 
 });
